@@ -20,7 +20,7 @@ let spaces = Array(9).fill(null)
 const startGame = () => {
     boxes.forEach(box => box.addEventListener('click', boxClicked))
 }
-
+// we are adding x or o so boxes are not going to be empty
 function boxClicked(e){
     const id = e.target.id
 
