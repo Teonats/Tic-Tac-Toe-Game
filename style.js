@@ -78,19 +78,6 @@ return false
 
 
 //with this function it will clear space arrays in the boxes.
-function restart() {
-    spaces.fill(null)
-        boxes.forEach(box => {
-            box.innerText = ''
-            box.style.backgroundColor=''
-
-        })
-
-        playerText = 'Tic Tac Toe'
-
-        currentPlayer = X_Text
-    }
-
 
 
 startGame()
