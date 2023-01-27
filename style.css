@@ -74,8 +74,4 @@ button {
 
 }
 
-button:hover {
-    cursor: pointer;
-    transform: translateY(-4px);
-}
 
