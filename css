@@ -1,0 +1,81 @@
+div{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: darkslategrey;
+    font-family: 'finger paint', 'cursive';
+    font-size: 80px;
+    
+
+}
+
+:root { 
+    color:darkgoldenrod;
+    --winning-blocks: rgba(0, 100, 58, 0.637);
+}
+
+body {
+    color: var darkgoldenrod;
+    font-style: 'Finger Paint', 'cursive';
+
+}
+
+h1 {
+font-size: 54px;
+text-transform: uppercase;
+text-shadow: 2px 2px 5px darkgoldenrod
+
+}
+
+
+.container {
+    padding: 40px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    background-color: beige;
+}
+
+#gameboard {
+        width: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40;
+    }
+
+.box {
+        height: 150px;
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--purple);
+        font-size: 120p; 
+        border-right: 2px dotted;
+        border-bottom: 2px dotted;
+        border-left: 2px dotted;
+        border-top: 2px dotted;
+    }
+   
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+    color:#212121;
+    font-size: 18px;
+    transition: 200ms transform;
+    font-weight:600;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+

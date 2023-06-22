@@ -9,3 +9,4 @@ X player and O player taking a turnes during the game.
 One of the players gets three of his/her marks in a row (vertically, horizontally, or diagonally) i.e. that player wins the game.
 b. If no one can create a straight line with their own mark and all the positions on the board are occupied, then the game ends in a draw/tie.
  
+# Tic-Tac-Toe-Game-with-SCSS
